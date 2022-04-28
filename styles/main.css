@@ -605,12 +605,19 @@ main {
 
 #bio-prof-pic {
     border-radius: 50%;
+    width: 330px;
+    float: right;
+    margin: -140px 0 24px 20px;
+}
+
+/*#bio-prof-pic {
+    border-radius: 50%;
     max-width: 50%;
     object-position: 50% 0;
     object-fit: cover;
     float: right;
     /*margin: -140px 0 24px 20px;*/
-}
+/*} */
 
 @media screen and (max-width: 768px) {
     #bio-prof-pic {
