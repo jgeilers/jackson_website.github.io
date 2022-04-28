@@ -609,7 +609,7 @@ main {
     object-position: 50% 0;
     object-fit: cover;
     float: right;
-    margin: -140px 0 24px 20px;
+    /*margin: -140px 0 24px 20px;*/
 }
 
 @media screen and (max-width: 768px) {
