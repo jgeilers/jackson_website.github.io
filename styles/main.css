@@ -604,10 +604,10 @@ main {
 /***** Headshot */
 
 #bio-prof-pic {
-    border-radius: 50%;
-    width: 500px;
-    float: right;
+    max-width: 50%;
+    object-position: 50% 0;
     object-fit: cover;
+    float: right;
     margin: -140px 0 24px 20px;
 }
 
