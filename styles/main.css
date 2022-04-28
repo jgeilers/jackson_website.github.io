@@ -606,7 +606,6 @@ main {
 #bio-prof-pic {
     border-radius: 50%;
     width: 500px;
-    height: auto;
     float: right;
     object-fit: cover;
     margin: -140px 0 24px 20px;
