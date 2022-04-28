@@ -196,6 +196,7 @@ header a:hover {
     z-index: 2000;
     font-size: 150%;
     letter-spacing: .3em;
+    float: left;
 }
 
 @media screen and (max-width: 640px) {
@@ -604,8 +605,7 @@ main {
 
 #bio-prof-pic {
     border-radius: 50%;
-    width: 50%;
-    height:  auto;
+    width: 350px;
     float: right;
     object-fit: cover;
     margin: -140px 0 24px 20px;
