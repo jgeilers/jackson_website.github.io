@@ -606,7 +606,12 @@ main {
     width: auto;
     max-width:  100%;
     float: right;
-    /*margin: -140px 0 24px 20px;*/
+    margin: -140px 0 24px 20px;
+
+    /*border-radius: 50%;
+    width: 330px;
+    float: right;
+    margin: -140px 0 24px 20px;*/
 }
 
 @media screen and (max-width: 768px) {
