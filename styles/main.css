@@ -133,6 +133,10 @@ img {
     color: var(--color-blue);
 }
 
+.red {
+    color:  var(--color-red);
+}
+
 .blue-block {
     color: white;
     font-weight: bold;
