@@ -452,7 +452,7 @@ main {
 }
 
 .custom-two-thirds {
-    width: calc(66.66% - 0.5em); /* Adjust as needed */
+    width: calc(66.66% - 1.5em); /* Adjust as needed */
     padding-right: 0.5em; /* Adjust spacing */
     display: inline-block;
     box-sizing: border-box; /* Include padding in the width */
