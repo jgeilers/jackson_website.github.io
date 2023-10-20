@@ -654,9 +654,9 @@ main {
 /***** Photo preview containers */
 
 .photo-container {
-    position: fixed;
-    text-align: left;
-    color: black;
+    position: relative;
+    text-align: center;
+    color: white;
     margin-top: 0.75em;
     margin-bottom: 0.75em;
     -webkit-filter: brightness(100%);
@@ -665,6 +665,23 @@ main {
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+.photo-container .text {
+    display: none; /* Hide the text by default */
+    position: absolute;
+    top: 50%; /* Position it in the middle of the container */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
+    z-index: 10000;
+    color: white;
+    font-size: 175%;
+    font-family: 'IBM Plex Sans Condensed';
+    font-weight: 600;
+}
+
+.photo-container:hover .text {
+    display: block; /* Show the text on hover */
 }
 
 .photo-container:hover {
