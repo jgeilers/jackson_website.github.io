@@ -654,9 +654,9 @@ main {
 /***** Photo preview containers */
 
 .photo-container {
-    position: relative;
-    text-align: center;
-    color: white;
+    position: fixed;
+    text-align: left;
+    color: black;
     margin-top: 0.75em;
     margin-bottom: 0.75em;
     -webkit-filter: brightness(100%);
