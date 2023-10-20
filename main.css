@@ -181,6 +181,10 @@ header {
     padding: 3em;
 }
 
+nav {
+    margin-bottom: 0; /* Reduce the margin between the navigation bar and bio-prof-pic */
+}
+
 header a {
     color: black;
     text-decoration: none;
@@ -227,32 +231,6 @@ nav a {
     font-weight: bold; /* Optionally, make the text bold */
 }
 
-/* nav {
-    z-index: 2000;
-    margin-left: auto;
-}
-
-nav a {
-    font-size: 85%;
-    letter-spacing: 0.05em;
-    margin: 1em;
-}
-
-@media screen and (max-width: 640px) {
-    nav {
-        margin-top: 18px;
-    }
-    
-    nav a:first-child{
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    nav a {
-        margin: 1em 0.5em;   
-    }
-} */
 
 /***** Footer */
 
@@ -591,6 +569,7 @@ main {
 
 .intro h1 {
     font-size: 400%;
+    margin-top: 1em;
 }
 
 .intro h2 {
@@ -695,48 +674,6 @@ main {
     font-weight: 600;
 }
 
-/* PAGE STYLES: WORK */
-
-/***** Sticky nav bar */
-
-/* #sticky-nav-bar li:first-child {
-    margin-left: -0.25em;
-    font-weight: 400;
-    font-style: italic;
-}
-
-@media screen and (min-width: 640px) {
-    .stuck {
-        position: fixed;
-        transition: all 0.5s;
-    }
-
-    #sticky-nav-bar.stuck {
-        top: 1.5em;
-        right: 2em;
-        padding: 12px;
-        padding-left: 16px;
-        background-color: rgba(28, 33, 41, 0.8);
-        border-radius: 4px;
-        transition: all 0.5s;
-        color: white;
-    }
-
-    #sticky-nav-bar.stuck a {
-        color: white;
-    }
-
-    .stuck + * {
-        padding-top: 80px;
-    }
-}
-
-@media screen and (min-width: 960px) {
-    #sticky-nav-bar.stuck {
-        right: calc(2em + (100vw - 960px) / 2);
-    }
-} */
-
 /***** Labels */
 
 .ilabel {
@@ -758,50 +695,3 @@ a.ilabel:hover {
 .ilabel + .ilabel {
     margin-left: 1px;
 }
-
-/* PAGE STYLES: BLOG LIST */
-
-/* .posts-entry {
-    margin-bottom: 1em;
-    line-height: 1.5em;
-}
-
-.posts-entry-title {
-    font-weight: 600;
-    margin-right: 0.5em;    
-}
-
-.posts-entry-date {
-    color: gray;
-    text-transform: uppercase;
-    font-size: 90%;
-}
-
-.posts-entry-blurb {
-    display: block;
-    font-size: 100%;
-    margin-top: 0.5em;
-} */
-
-/* PAGE STYLES: BLOG PAGE
-
-.byline {
-    margin-top: -2em;
-    margin-bottom: 3em;
-}
-
-@media screen and (max-width: 768px) {
-    .byline {
-        margin-top: -0.5em;
-    }
-}
-
-.byline-author {
-    text-transform: uppercase;
-    font-weight: 600;
-    padding-right: 0.5em;
-}
-
-.byline-date {
-    color: #666;
-} */
