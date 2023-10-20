@@ -210,7 +210,24 @@ header a:hover {
 
 /***** Nav bar */
 
-nav {
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Adjust the spacing between items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Set the link color to your preference */
+    font-weight: bold; /* Optionally, make the text bold */
+}
+
+/* nav {
     z-index: 2000;
     margin-left: auto;
 }
@@ -235,7 +252,7 @@ nav a {
     nav a {
         margin: 1em 0.5em;   
     }
-}
+} */
 
 /***** Footer */
 
