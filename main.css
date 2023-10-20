@@ -566,6 +566,20 @@ main {
     min-height: 65vh;
 }
 
+.intro-text {
+    display: flex;
+    justify-content: space-between; /* Align content to left and right */
+    align-items: center; /* Center vertically */
+}
+
+.text-content {
+    flex: 1; /* Allow text to take available space */
+}
+
+.image-content {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
 .intro * {
     padding-top: 0;
     padding-bottom: 0;
@@ -612,15 +626,13 @@ main {
     float: right;
     margin: -140px 0 24px 20px;
 } */
+
 #bio-prof-pic {
     border-radius: 50%;
     width: 330px;
-    height:  330px;
+    height: 330px;
     object-fit: cover;
-    object-position: center center; /* Center the image both horizontally and vertically */
-    margin: 0 auto; /* Center the image horizontally */
-    display: block; /* Ensure it's centered in the available space */
-    margin-top: 24px; /* Adjust the top margin as needed */
+    object-position: center center;
 }
 
 @media screen and (max-width: 768px) {
