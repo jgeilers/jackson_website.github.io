@@ -603,7 +603,7 @@ main {
 
 /***** Headshot */
 
-#bio-prof-pic {
+/* #bio-prof-pic {
     border-radius: 50%;
     width: 330px;
     height:  330px;
@@ -611,6 +611,16 @@ main {
     object-position: 50% 0;
     float: right;
     margin: -140px 0 24px 20px;
+} */
+#bio-prof-pic {
+    border-radius: 50%;
+    width: 330px;
+    height:  330px;
+    object-fit: cover;
+    object-position: center center; /* Center the image both horizontally and vertically */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure it's centered in the available space */
+    margin-top: 24px; /* Adjust the top margin as needed */
 }
 
 @media screen and (max-width: 768px) {
