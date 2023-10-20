@@ -380,7 +380,7 @@ main {
 
 .wide {
     max-width: 768px;
-    /* padding: 1.5em 3em; */
+    padding: 1.5em 3em;
     margin-left: auto;
     margin-right: auto;
 }
