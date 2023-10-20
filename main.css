@@ -617,7 +617,7 @@ main {
 
 /***** Headshot */
 
-/* #bio-prof-pic {
+#bio-prof-pic {
     border-radius: 50%;
     width: 330px;
     height:  330px;
@@ -625,14 +625,6 @@ main {
     object-position: 50% 0;
     float: right;
     margin: -140px 0 24px 20px;
-} */
-
-#bio-prof-pic {
-    border-radius: 50%;
-    width: 330px;
-    height: 330px;
-    object-fit: cover;
-    object-position: center center;
 }
 
 @media screen and (max-width: 768px) {
