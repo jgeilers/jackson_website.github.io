@@ -682,7 +682,7 @@ main {
 
 .photo-container .text {
     display: none; /* Hide the text by default */
-    position: absolute;
+    position: relative;
     top: 0%; /* Position it in the middle of the container */
     left: 0%;
     transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
@@ -698,7 +698,7 @@ main {
 }
 
 .photo-container:hover {
-    -webkit-filter: brightness(80%);
+    -webkit-filter: brightness(70%);
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
