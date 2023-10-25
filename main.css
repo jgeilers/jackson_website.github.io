@@ -695,6 +695,7 @@ main {
 
 .photo-container:hover .text {
     display: block; /* Show the text on hover */
+    -webkit-filter: brightness(100%);
 }
 
 .photo-container:hover {
@@ -705,22 +706,6 @@ main {
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-
-/* .photo-container img {
-    border-radius: 8px;
-    margin-top: 0;
-}
-
-.photo-container div {
-    position: relative;
-    top: 1em;
-    left: 1em;
-    z-index: 10000;
-    color: white;
-    font-size: 175%;
-    font-family: 'IBM Plex Sans Condensed';
-    font-weight: 600;
-} */
 
 /***** Labels */
 
