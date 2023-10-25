@@ -452,7 +452,7 @@ main {
 }
 
 .custom-two-thirds {
-    width: calc(66.66% - 1.5em); /* Adjust as needed */
+    width: calc(66.66% - 0.5em); /* Adjust as needed */
     padding-right: 0.5em; /* Adjust spacing */
     display: inline-block;
     box-sizing: border-box; /* Include padding in the width */
@@ -672,11 +672,7 @@ main {
     color: white;
     margin-top: 0.75em;
     margin-bottom: 0.75em;
-    -webkit-filter: brightness(100%);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
+    filter: brightness(100%);
     transition: all 0.5s ease;
 }
 
@@ -687,7 +683,7 @@ main {
     left: 50%;
     transform: translate(-50%, -50%); /* Center it both horizontally and vertically */
     z-index: 10000;
-    color: white;
+    color: rgba(255, 255, 255, 0.9);
     font-size: 175%;
     font-family: 'IBM Plex Sans Condensed';
     font-weight: 600;
@@ -695,15 +691,10 @@ main {
 
 .photo-container:hover .text {
     display: block; /* Show the text on hover */
-    -webkit-filter: brightness(100%);
 }
 
 .photo-container:hover {
-    -webkit-filter: brightness(70%);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
+    filter: brightness(70%);
     transition: all 0.5s ease;
 }
 
